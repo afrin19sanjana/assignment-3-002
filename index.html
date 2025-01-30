@@ -22,12 +22,14 @@
 </head>
 
 <body class="font-sora">
-    <header class="bg-linear-to-t from-base-300 to-base-500">
-        <nav class="container mx-auto pt-10 ">
+    <!-- header part starts -->
+    <header class="bg-linear-to-t from-base-300 to-base-500 bg-[#EFEBE3]">
+        <!-- navbar starts -->
+        <nav class="container mx-auto pt-10 border-b-2 border-[#179800] lg:border-hidden">
         <div class="grid grid-cols-3 items-center justify-between">
         <div class="">
          <img class="hidden lg:block" src="assets/logo-header.png" alt="image of logo">
-         <img class="block lg:hidden"src="assets/logo.png" alt="logo for smaller device">
+         <img class="block lg:hidden ml-4 lg:ml-0"src="assets/logo.png" alt="logo for smaller device">
         </div>
         <div class="invisible lg:flex">
          <ul class="flex gap-x-7 ">
@@ -46,13 +48,26 @@
             <button class="btn btn-outline btn-success lg:visible ">Login</button>
             <button class="btn btn-success text-white lg:visible">Register</button>
            </div>
-          <button class="lg:hidden ">
+          <button class="lg:hidden mr-8 lg:mr-0 ">
             <i class="fa-solid fa-bars "></i>
           </button>
         </div>
         </div>
         </nav>
-
+       <section class="banner container mx-auto">
+        <div class="text-center">
+            <!-- banner text -->
+            <div class="mt-32">
+             <h1 class="font-semibold text-6xl text-[#111111]">Freshness <span class="font-semibold text-6xl text-[#179800]"> You Can<br>
+                Count</span> On, Prices You’ll Love!</h1>
+                <p class="text-xl text-[#111111] pt-8 pb-9">Shop your daily essentials at unbeatable prices. From fresh produce to pantry<br>staples, we’ve got you covered every day!</p>
+            </div>
+            <!-- banner image -->
+            <div class="flex justify-center">
+                <img src="assets/hero-vegetables.png" alt="banner image showing here">
+            </div>
+        </div>
+       </section>
     </header>
     <main>
 
