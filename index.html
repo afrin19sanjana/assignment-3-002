@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google-font-cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">    
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+         .font-sora{
+            font-family: "Sora", serif;
+         }
+    </style>
 </head>
-<body>
-    <header>
+
+<body class="font-sora">
+    <header class="bg-linear-to-t from-base-300 to-base-500">
+        <nav class="container mx-auto pt-10 ">
+        <div class="grid grid-cols-3 items-center">
+        <div class="">
+         <img class="sm:hidden lg:block" src="assets/logo-header.png" alt="image of logo">
+         <img class="sm:block lg:hidden "src="assets/logo.png" alt="logo for smaller device">
+        </div>
+        <div class="flex sm:hidden lg:block">
+         <ul class="flex gap-x-7 ">
+            <li>Product</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+         </ul>
+        </div>
+        <div class="flex items-center gap-x-6">
+           <div class="flex gap-x-6">
+            <i class="fa-solid fa-magnifying-glass sm:hidden lg:block"></i>
+            <i class="fa-solid fa-cart-shopping sm:hidden lg:block"></i>
+           
+           </div>
+           <div class="sm:hidden lg:block">
+            <button class="btn btn-outline btn-success">Login</button>
+            <button class="btn btn-success text-white">Register</button>
+           </div>
+           <i class="fa-solid fa-bars lg:hidden sm:block"></i>
+        </div>
+        </div>
+        </nav>
 
     </header>
     <main>
@@ -16,4 +59,5 @@
 
     </footer>
 </body>
+
 </html>
