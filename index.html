@@ -24,29 +24,31 @@
 <body class="font-sora">
     <header class="bg-linear-to-t from-base-300 to-base-500">
         <nav class="container mx-auto pt-10 ">
-        <div class="grid grid-cols-3 items-center">
+        <div class="grid grid-cols-3 items-center justify-between">
         <div class="">
-         <img class="sm:hidden lg:block" src="assets/logo-header.png" alt="image of logo">
-         <img class="sm:block lg:hidden "src="assets/logo.png" alt="logo for smaller device">
+         <img class="hidden lg:block" src="assets/logo-header.png" alt="image of logo">
+         <img class="block lg:hidden"src="assets/logo.png" alt="logo for smaller device">
         </div>
-        <div class="flex sm:hidden lg:block">
+        <div class="invisible lg:flex">
          <ul class="flex gap-x-7 ">
-            <li>Product</li>
-            <li>Services</li>
-            <li>Contact Us</li>
+            <li class="lg:visible">Product</li>
+            <li class="lg:visible">Services</li>
+            <li class="lg:visible">Contact Us</li>
          </ul>
         </div>
         <div class="flex items-center gap-x-6">
-           <div class="flex gap-x-6">
-            <i class="fa-solid fa-magnifying-glass sm:hidden lg:block"></i>
-            <i class="fa-solid fa-cart-shopping sm:hidden lg:block"></i>
+           <div class="hidden lg:flex gap-x-6">
+            <i class="fa-solid fa-magnifying-glass  lg:block"></i>
+            <i class="fa-solid fa-cart-shopping  lg:block"></i>
            
            </div>
-           <div class="sm:hidden lg:block">
-            <button class="btn btn-outline btn-success">Login</button>
-            <button class="btn btn-success text-white">Register</button>
+           <div class="invisible lg:flex  gap-x-2">
+            <button class="btn btn-outline btn-success lg:visible ">Login</button>
+            <button class="btn btn-success text-white lg:visible">Register</button>
            </div>
-           <i class="fa-solid fa-bars lg:hidden sm:block"></i>
+          <button class="lg:hidden ">
+            <i class="fa-solid fa-bars "></i>
+          </button>
         </div>
         </div>
         </nav>
