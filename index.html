@@ -83,8 +83,10 @@
             </div>
         </section>
     </header>
+    <!-- main part started -->
     <main class="">
-        <section class="services container mx-auto my-36">
+        <!--services -->
+        <section class="services container mx-auto my-24 lg:my-36 ">
             <div class="">
                 <div>
                     <h2 class="font-semibold text-[#179800] text-3xl ">Services</h2>
@@ -137,11 +139,11 @@
             </div>
         </section>
         <!-- product content -->
-        <section class="products bg-[#EFEBE3] pb-36">
+        <section class="products bg-[#EFEBE3] pb:0 lg:pb-36 ">
             <div class="container mx-auto">
                 <!-- product head -->
-                <div class="">
-                    <h2 class="font-semibold text-[#179800] text-3xl pt-36 pb-10">Popular Products</h2>
+                <div class="pt-36 ">
+                    <h2 class="font-semibold text-[#179800] text-3xl pb-10">Popular Products</h2>
                 </div>
                 <!-- product card -->
                 <div class="lg:flex w-full gap-x-4">
@@ -309,7 +311,7 @@
                 <h2 class="font-semibold text-[#179800] text-3xl pt-36 pb-10">Arrival & Offers</h2>
             </div>
             <!--arrival card-->
-            <div class="lg:flex gap-x-4 font-poppins ">
+            <div class="lg:flex gap-x-4 font-poppins pb-40">
                 <div class=" lg:w-3/5 flex justify-between bg-[#115414] rounded-xl lg:px-6 pt-8">
                     <div class="">
                         <img src="assets/dawat-logo.png" alt="logo of dawat">
@@ -336,9 +338,44 @@
                 </div>
             </div>
         </section>
+        <!-- grocery news  -->
+        <section class="grocery container mx-auto bg-[#EFEBE3] py-11 lg:px-28 rounded-xl relative left-0 bottom-0 w-80 lg:w-full">
+           <div class="lg:flex justify-between items-center lg:mx-0">
+            <div class="lg:ml-16">
+                <img src="assets/vegetable-busket.png" alt="image of vegetable busket">
+            </div>
+            <div class="lg:mr-16 text-center lg:text-left">
+                <h2 class="font-semibold text-[#179800] lg:text-[#111111] text-2xl lg:text-3xl pb-5">Get Grocery News!</h2>
+                <p class="text-xl text-[#111111] pb-9">Exclusive training tips, ticks, product deals and more.</p>
+                <input class="lg:w-full h-16 pl-3" type="email" placeholder="Enter E-mail..."><br>
+                <button class="btn btn-success text-white lg:visible mt-5">Subscribe</button>
+            </div>
+           </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="bg-[#179800] pt-80 pb-28 lg:pb-36 -mt-60  ">
+      <div class="grid grid-cols-1 lg:grid-cols-3 container mx-auto">
+        <div>
+            <img src="assets/logo-footer.png" alt="footer logo">
+            <p class="text-xl text-white opacity-25 pb-6 lg:pb-0">Discover a world of treats, toys, and<br> essentials handpicked for your furry<br> friends</p>
+        </div>
+        <div class="">
+            <ul>
+                <li class="text-[#EFEBE3] text-xl"><a href="">Product</a></li>
+                <li class="text-[#EFEBE3] text-xl py-8" ><a href="">Services</a></li>
+                <li class="text-[#EFEBE3] text-xl"><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="pt-10 text-white">
+            <p>Follow us</p>
+            <div class="flex gap-x-4">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+      </div>
     </footer>
 </body>
 
