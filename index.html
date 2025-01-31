@@ -31,11 +31,11 @@
          <img class="hidden lg:block" src="assets/logo-header.png" alt="image of logo">
          <img class="block lg:hidden ml-4 lg:ml-0"src="assets/logo.png" alt="logo for smaller device">
         </div>
-        <div class="invisible lg:flex">
-         <ul class="flex gap-x-7 ">
-            <li class="lg:visible">Product</li>
-            <li class="lg:visible">Services</li>
-            <li class="lg:visible">Contact Us</li>
+        <div class="hidden lg:flex">
+         <ul class="lg:flex gap-x-7 ">
+            <li class="lg:visible text-xl text-[#111111]">Product</li>
+            <li class="lg:visible text-xl text-[#111111]">Services</li>
+            <li class="lg:visible text-xl text-[#111111]">Contact Us</li>
          </ul>
         </div>
         <div class="flex items-center gap-x-6">
@@ -44,11 +44,12 @@
             <i class="fa-solid fa-cart-shopping  lg:block"></i>
            
            </div>
-           <div class="invisible lg:flex  gap-x-2">
-            <button class="btn btn-outline btn-success lg:visible ">Login</button>
+           
+           <div class="invisible flex  gap-x-2">
+            <button class="btn btn-outline  btn-success hover lg:visible "><a class="hover:text-white">Login</a></button>
             <button class="btn btn-success text-white lg:visible">Register</button>
            </div>
-          <button class="lg:hidden mr-8 lg:mr-0 ">
+           <button class="  lg:hidden lg:mr-0 ">
             <i class="fa-solid fa-bars "></i>
           </button>
         </div>
@@ -69,8 +70,59 @@
         </div>
        </section>
     </header>
-    <main>
-
+    <main class="container mx-auto">
+     <section class="services my-36">
+      <div class="">
+        <div class="font-semibold text-[#179800] text-3xl ">Services</div>
+      </div>
+      <div class="grid grid-cols-1 w-full lg:grid-cols-3 mt-12 gap-y-6">
+        <div class="card card-compact bg-[#EFEBE3] w-full lg:w-96 p-4 shadow-xl lg:p-9">
+            <figure>
+            <div class="h-36 w-36 rounded-full bg-white ">
+                <img class="w-24 mx-auto mt-6 "
+                src="assets/service.png"
+                alt="assurance of 24/7 service" />
+            </div>
+            </figure>
+            <div class="card-body text-center">
+              <h2 class="card-title block">24/7 Services </h2>
+              <div class="card-actions justify-center text-center">
+                <p>24/7 food delivery service ensures that customers can enjoy our favorite meals anytime, day or night.  </p>
+              </div>
+            </div>
+          </div>
+          <div class="card card-compact bg-[#EFEBE3] w-full lg:w-96 shadow-xl p-9">
+            <figure>
+            <div class="h-36 w-36 rounded-full bg-white ">
+                <img class="w-24 mx-auto mt-6 "
+                src="assets/delivery.png"
+                alt="assurance of 24/7 service" />
+            </div>
+            </figure>
+            <div class="card-body text-center">
+              <h2 class="card-title block">Fast Delivery </h2>
+              <div class="card-actions justify-center text-center">
+                <p>We ensure quick and efficient delivery of our products, reaching you in the shortest time possible. With a reliable logistics system and dedicated team</p>
+              </div>
+            </div>
+          </div> <div class="card card-compact bg-[#EFEBE3] w-full lg:w-96 shadow-xl p-9">
+            <figure>
+            <div class="h-36 w-36 rounded-full bg-white ">
+                <img class="w-24 mx-auto mt-6 "
+                src="assets/healthy.png"
+                alt="assurance of healthy food" />
+            </div>
+            </figure>
+            <div class="card-body text-center">
+              <h2 class="card-title block">Healthy Products  </h2>
+              <div class="card-actions justify-center text-center">
+                <p>We offer a variety of fresh, nutritious, and delicious meals made with high-quality ingredients. </p>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+     </section>
     </main>
     <footer>
 
